@@ -35,10 +35,10 @@ h1 {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 20px;
     text-align: justify;
-    font-family: "Sansita Swashed", cursive;
-    color: purple;
+    font-family: 'Sansita Swashed', cursive;
+    color:purple;
 }
 
 h3 {
@@ -322,22 +322,18 @@ botones
 /*---------------------------------------
 ICON - Redes sociales
 -----------------------------------------*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 main {
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: center;s
     justify-content: center;
     flex-wrap: wrap;    
 }
 
 .icon {
-    position: relative;
+    position: center;
     width: 80px;
     height: 80px;
     margin: 20px;
@@ -415,20 +411,6 @@ CENTRADA
     font-size: 50px
 }
 
-.google-maps {
-    position:absolute;
-    padding-bottom: 75%;
-    height: 0;
-    overflow: hidden;
-}
-
-.google-maps iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-}
 
 
 /* If screen size is LESS than 1200px wide */
@@ -477,7 +459,7 @@ CENTRADA
 --font-weight-bold:           700;       
 
 }
-
+{
 $carousel-control-color:             $white;
 $carousel-control-width:             15%;
 $carousel-control-opacity:           .5;
@@ -505,3 +487,4 @@ $carousel-control-next-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://
 
 $carousel-transition-duration:       .6s;
 $carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
+}
